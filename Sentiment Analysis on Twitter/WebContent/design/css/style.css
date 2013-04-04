@@ -1,0 +1,159 @@
+<style> 
+ 	body { 
+ 		min-width:500px; 
+         overflow-x:hidden; 
+     } 
+ 	.buttonPos { 
+ 		float: left; 
+ 		position: relative; 
+	    border-top: 1px solid #004f00;
+	    background: #157515;
+		background: -webkit-gradient(linear, left top, left bottom, from(#004f00), to(#157515));
+		background: -webkit-linear-gradient(top, #004f00, #157515);
+		background: -moz-linear-gradient(top, #004f00, #157515);
+		background: -ms-linear-gradient(top, #004f00, #157515);
+		background: -o-linear-gradient(top, #004f00, #157515);	
+ 	    padding: 8px 16px; 
+ 	    -webkit-border-radius: 0px; 
+ 	    -moz-border-radius: 0px; 
+ 	    border-radius: 0px; 
+ 	    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0; 
+ 	    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0; 
+ 	    box-shadow: rgba(0,0,0,1) 0 1px 0; 
+ 	    text-shadow: rgba(0,0,0,.4) 0 1px 0; 
+ 	    color: #ced3f2; 
+ 	    font-size: 13px; 
+ 	    font-family: Georgia, serif; 
+ 	    text-decoration: none; 
+ 	    vertical-align: middle; 
+ 	} 
+ 	.buttonPos:hover { 
+ 	    border-top-color: #0a6b0a;
+		background: #0a6b0a; 
+ 	    color: #ccc; 
+ 	} 
+ 	.buttonPos:active { 
+ 		border-top-color: #048a04;
+		background: #048a04;
+ 	} 
+ 	.buttonNeg { 
+ 		float: right; 
+ 		position: relative; 
+         text-align: left; 
+ 		border-top: 1px solid #8f0000; 
+ 		background: #b81e23;
+		background: -webkit-gradient(linear, left top, left bottom, from(#8f0005), to(#b81e23));
+		background: -webkit-linear-gradient(top, #8f0005, #b81e23);
+		background: -moz-linear-gradient(top, #8f0005, #b81e23);
+		background: -ms-linear-gradient(top, #8f0005, #b81e23);
+		background: -o-linear-gradient(top, #8f0005, #b81e23);
+ 		padding: 8px 16px; 
+ 		-webkit-border-radius: 0px; 
+ 		-moz-border-radius: 0px; 
+ 		border-radius: 0px; 
+ 		-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0; 
+ 		-moz-box-shadow: rgba(0,0,0,1) 0 1px 0; 
+ 		box-shadow: rgba(0,0,0,1) 0 1px 0; 
+ 		text-shadow: rgba(0,0,0,.4) 0 1px 0; 
+ 		color: #ced3f2; 
+ 		font-size: 13px; 
+ 		font-family: Georgia, serif; 
+ 		text-decoration: none; 
+ 		vertical-align: middle; 
+ 	} 
+ 	.buttonNeg:hover { 
+ 		border-top-color: #bf131b;
+		background: #bf131b;
+		color: #ccc; 
+ 	} 
+ 	.buttonNeg:active { 
+ 		border-top-color: #cf040b;
+		background: #cf040b; 
+ 	} 
+ 	.buttonNeu { 
+ 		float: left; 
+ 		text-align: left; 
+ 		position: relative; 
+ 		border-top: 1px solid #0e1c4d; 
+		background: #2a3c75;
+ 		background: -webkit-gradient(linear, left top, left bottom, from(#0e1c4d), to(#2a3c75));
+		background: -webkit-linear-gradient(top, #0e1c4d, #2a3c75);
+		background: -moz-linear-gradient(top, #0e1c4d, #2a3c75);
+		background: -ms-linear-gradient(top, #0e1c4d, #2a3c75);
+		background: -o-linear-gradient(top, #0e1c4d, #2a3c75);
+ 		padding: 8px 16px; 
+ 		-webkit-border-radius: 0px; 
+ 		-moz-border-radius: 0px; 
+ 		border-radius: 0px; 
+ 		-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0; 
+ 		-moz-box-shadow: rgba(0,0,0,1) 0 1px 0; 
+ 		box-shadow: rgba(0,0,0,1) 0 1px 0; 
+ 		text-shadow: rgba(0,0,0,.4) 0 1px 0; 
+ 		color: #ced3f2; 
+ 		font-size: 13px; 
+ 		font-family: Georgia, serif; 
+ 		text-decoration: none; 
+ 		vertical-align: middle; 
+ 	} 
+ 	.buttonNeu:hover { 
+ 		border-top-color: #1e2f66;
+		background: #1e2f66;
+		color: #ccc; 
+ 	} 
+ 	.buttonNeu:active { 
+ 		border-top-color: #39446b;
+		background: #39446b;
+ 	}	 
+ 	#title { 
+ 	font-family: 'Oswald', 'sans-serif';	 
+ 	font-size:72px; 
+ 	} 
+ 	.dataButton { 
+ 		border-top: 1px solid #000000; 
+ 		background: #222222;
+ 		min-width: 350px;		 
+ 		padding: 10px 20px; 
+ 		-webkit-border-radius: 1px; 
+ 		-moz-border-radius: 1px; 
+ 		border-radius: 1px; 
+ 		-webkit-box-shadow: rgba(0,0,0,1) 0 1px 0; 
+ 		-moz-box-shadow: rgba(0,0,0,1) 0 1px 0; 
+ 		box-shadow: rgba(0,0,0,1) 0 1px 0; 
+ 		text-shadow: rgba(0,0,0,.4) 0 1px 0; 
+ 		color: #ffffff; 
+ 		font-size: 16px; 
+ 		font-family: Open Sans, sans-serif; 
+ 		text-decoration: none; 
+ 		vertical-align: middle; 
+ 	} 
+ 	.dataButton:hover { 
+ 		border-top-color: #021f33; 
+ 		background: #021f33; 
+ 		color: #ffffff; 
+ 	} 
+ 	.dataButton:active { 
+ 		border-top-color: #0070ba; 
+ 		background: #0070ba; 
+    } 
+	    table.gridtable {
+		color:#333333;
+		border-width: 1px;
+		border-color: #666666;
+		border-collapse: collapse;
+	}
+		table.gridtable th {
+		border-width: 1px;
+		padding: 8px;
+		border-style: solid;
+		border-color: #666666;
+		background-color: #dedede;
+	}
+		table.gridtable td {
+		border-width: 1px;
+		padding: 8px;
+		border-style: solid;
+		border-color: #666666;
+		background-color: #ffffff;
+	}
+ 	 
+ </style> 
